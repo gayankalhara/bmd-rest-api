@@ -17,14 +17,7 @@ Desktop.ini
 .idea/tasks.xml
 
 # Sensitive or high-churn files:
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-.idea/inspectionProfiles/Project_Default.xml
-.idea/dictionaries/*
+.idea
 
 # JIRA plugin
 atlassian-ide-plugin.xml
