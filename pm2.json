@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "exec_mode": "cluster",
+    "instances" : 4,
+    "script": "./build/src/index.js",
+    "name": "type-node",
+    "interpreter": "node",
+    "env": {
+      "NODE_ENV": "dev"
+    },
+    "out_file": "logs\\type-node.log",
+    "error_file": "logs\\type-node-err.log"
+  }]
+}

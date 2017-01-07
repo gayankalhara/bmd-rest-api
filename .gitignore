@@ -24,6 +24,7 @@ Desktop.ini
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 .idea/inspectionProfiles/Project_Default.xml
+.idea/dictionaries/*
 
 # JIRA plugin
 atlassian-ide-plugin.xml
