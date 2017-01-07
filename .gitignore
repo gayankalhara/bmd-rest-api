@@ -12,27 +12,11 @@ Desktop.ini
 
 *.log
 
-# User-specific stuff:
-.idea
-.idea/workspace.xml
-.idea/tasks.xml
-
-# Sensitive or high-churn files:
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-
 # JIRA plugin
 atlassian-ide-plugin.xml
 
 ## File-based project format:
 *.iws
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -62,7 +46,6 @@ npm-debug.log
 
 # Doc #
 /doc/
-.idea/inspectionProfiles/Project_Default.xml
 
 # Logs
 logs
