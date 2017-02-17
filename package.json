@@ -24,7 +24,6 @@
   "dependencies": {
     "bcryptjs": "^2.3.0",
     "boom": "^3.2.2",
-    "couchbase": "^2.3.0",
     "fs": "0.0.2",
     "good": "^6.6.3",
     "good-console": "^5.3.2",
@@ -34,6 +33,7 @@
     "inert": "^3.2.1",
     "joi": "^8.4.2",
     "jsonwebtoken": "^7.1.7",
+    "mongoose": "^4.8.3",
     "nconf": "^0.8.4",
     "path": "^0.12.7",
     "vision": "^4.1.0"
@@ -46,7 +46,6 @@
     "@types/jsonwebtoken": "^7.2.0",
     "@types/nconf": "0.0.33",
     "@types/node": "^6.0.58",
-    "@types/couchbase": "^2.1.30",
     "gulp": "^3.9.1",
     "gulp-env": "^0.4.0",
     "gulp-mocha": "^2.2.0",

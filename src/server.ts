@@ -1,8 +1,7 @@
 import * as Hapi from "hapi";
-import { IPlugin } from "./plugins/interfaces";
-import { IServerConfigurations } from "./configurations";
+import {IPlugin} from "./plugins/interfaces";
+import {IServerConfigurations} from "./configurations";
 import * as Users from "./users";
-
 
 export function init(configs: IServerConfigurations, database: any) {
     const port = process.env.port || configs.port;

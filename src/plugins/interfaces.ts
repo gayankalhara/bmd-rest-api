@@ -1,5 +1,5 @@
 import * as Hapi from "hapi";
-import { IServerConfigurations } from "../configurations";
+import {IServerConfigurations} from "../configurations";
 
 
 export interface IPluginOptions {

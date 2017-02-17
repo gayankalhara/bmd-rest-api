@@ -1,16 +1,16 @@
 {
-    "database": {
-        "connectionString": "couchbase://198.211.99.100",
-        "bucketName": "bluemangodeals"
-    },
-    "server": {
-        "port": 5000,
-        "jwtSecret": "random-secret-password",
-        "jwtExpiration": "1h",
-        "plugins": [
-            "logger",
-            "swagger",
-            "jwt-auth"
-        ]
-    }
+  "database": {
+    "connectionString": "mongodb://67.205.170.198/bluemangodeals",
+    "bucketName": "bluemangodeals"
+  },
+  "server": {
+    "port": 5000,
+    "jwtSecret": "U0GYScoH0rkyvHdz",
+    "jwtExpiration": "1h",
+    "plugins": [
+      "logger",
+      "swagger",
+      "jwt-auth"
+    ]
+  }
 }

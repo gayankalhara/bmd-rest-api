@@ -5,27 +5,27 @@ export default (): IPlugin => {
     return {
         register: (server: Hapi.Server) => {
             server.register([
-                require('inert'),
-                require('vision'),
-                {
-                    register: require('hapi-swagger'),
-                    options: {
-                        info: {
-                            title: 'Task Api',
-                            description: 'Task Api Documentation',
-                            version: '1.0'
-                        },
-                        tags: [
-                            {
-                                'name': 'users',
-                                'description': 'API Users Interface.'
-                            }
-                        ],
-                        enableDocumentation: true,
-                        documentationPath: '/docs'
+                    require('inert'),
+                    require('vision'),
+                    {
+                        register: require('hapi-swagger'),
+                        options: {
+                            info: {
+                                title: 'Task Api',
+                                description: 'Task Api Documentation',
+                                version: '1.0'
+                            },
+                            tags: [
+                                {
+                                    'name': 'users',
+                                    'description': 'API Users Interface.'
+                                }
+                            ],
+                            enableDocumentation: true,
+                            documentationPath: '/docs'
+                        }
                     }
-                }
-            ]
+                ]
                 , (error) => {
                     if (error) {
                         console.log('error', error);

@@ -1,4 +1,4 @@
-import { IPlugin } from "../interfaces";
+import {IPlugin} from "../interfaces";
 import * as Hapi from "hapi";
 
 export default (): IPlugin => {
@@ -8,7 +8,7 @@ export default (): IPlugin => {
                 opsInterval: 1000,
                 reporters: [{
                     reporter: require('good-console'),
-                    events: { error: '*', log: '*', response: '*', request: '*' }
+                    events: {error: '*', log: '*', response: '*', request: '*'}
                 }]
             };
 

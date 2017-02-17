@@ -1,6 +1,6 @@
-import { IPlugin, IPluginOptions } from "../interfaces";
+import {IPlugin, IPluginOptions} from "../interfaces";
 import * as Hapi from "hapi";
-import { IUser } from "../../users/model";
+import {IUser, UserModel} from "../../users/user";
 
 export default (): IPlugin => {
     return {
@@ -29,7 +29,7 @@ export default (): IPlugin => {
                         {
                             key: serverConfig.jwtSecret,
                             validateFunc: validateUser,
-                            verifyOptions: { algorithms: ['HS256'] }
+                            verifyOptions: {algorithms: ['HS256']}
                         });
                 }
             });
@@ -42,5 +42,3 @@ export default (): IPlugin => {
         }
     };
 };
-
-
